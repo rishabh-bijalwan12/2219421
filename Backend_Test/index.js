@@ -7,7 +7,7 @@ const { loggerMiddleware, logMessage } = require('../Logging_middleware/logger')
 
 app.use(cors());
 app.use(express.json());
-app.use(loggerMiddleware); // log every request
+app.use(loggerMiddleware);
 
 const urlDB = {};
 

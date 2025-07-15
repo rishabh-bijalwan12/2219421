@@ -23,7 +23,6 @@ const UrlShortener = () => {
   const handleSubmit = async (index) => {
     const { url, validity, shortcode } = inputs[index];
     console.log(url)
-    // Clear previous results/errors
     handleChange(index, 'result', null);
     handleChange(index, 'error', null);
 
